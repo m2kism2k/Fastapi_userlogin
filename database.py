@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from sqlalchemy import Column, Integer, String, create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
@@ -25,7 +25,6 @@ def get_db():
         yield db
     finally:
         db.close()
-=======
 from sqlalchemy import Column, Integer, String, create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
@@ -50,4 +49,3 @@ def get_db():
         yield db
     finally:
         db.close()
->>>>>>> aeee592729411adf09b2e0723cf240d939023161
